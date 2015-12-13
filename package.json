@@ -1,0 +1,19 @@
+{
+  "name": "node-tdd",
+  "version": "0.0.1",
+  "description": "start tdd with node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "tdd",
+    "node",
+    "mocha"
+  ],
+  "author": "Enieber Cunha <eniebercunha@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^8.0.1"
+  }
+}
