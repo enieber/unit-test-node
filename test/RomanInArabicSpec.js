@@ -26,8 +26,8 @@ var should = require('should'),
 	    Roman.convert('II').should.equal(2);
 	});
 
-	//it('Convert Symbol XX in 10', function(){
-	  //  Roman.convert('XX').should.equal(10);
-	//});
+	it('Convert Symbol XX in 10', function(){
+	    Roman.convert('XX').should.equal(10);
+	});
     });
 });
