@@ -15,5 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "should": "^8.0.1"
+  },
+  "dependencies": {
+    "hashmap": "^2.0.4"
   }
 }
