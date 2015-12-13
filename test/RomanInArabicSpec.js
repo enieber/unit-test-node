@@ -6,9 +6,9 @@ var should = require('should'),
     Roman = require('../src/RomanInArabic').Romans;
 
  
- describe('Convert', function() {
+ describe('Convert Numbers Romans in Arabic', function() {
  
-     describe('Convert numbers Romans in Arab', function(){
+     describe('Convert Symbol unic', function(){
 
 	it('Convert Symbol I in 1', function(){
 	   Roman.convert('I').should.equal(1);
