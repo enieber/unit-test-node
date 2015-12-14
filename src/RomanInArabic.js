@@ -15,8 +15,8 @@
 	if(typeof(numberRomans[number]) == 'undefined'){
 	    let accummulator = 0; 
 	    
-	    for(let i = 0; i < numberRomans.legth; i++){
-		accummulator += numerRomans[number.charAt(1)];
+	    for(let i = 0; i < number.legth; i++){
+		accummulator += numerRomans.get(number.charAt(i));
 	    }
 	    return accummulator;
 	}
