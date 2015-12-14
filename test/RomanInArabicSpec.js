@@ -8,7 +8,7 @@ var should = require('should'),
  
  describe('Convert Numbers Romans in Arabic', function() {
  
-     describe('Convert single Symbol', function(){
+     describe('single Symbol', function(){
 
 	it('Convert Symbol I in 1', function(){
 	   Roman.convert('I').should.equal(1);
@@ -20,7 +20,7 @@ var should = require('should'),
 
      });
 
-    describe('Convert double Symbol', function(){
+    describe('double Symbol', function(){
 	
 	it('Convert Symbol II in 2', function(){
 	    Roman.convert('II').should.equal(2);
@@ -31,11 +31,17 @@ var should = require('should'),
 	});
     });
     
-    describe('Convert thwo symbols duplicate', function(){
+    describe('two symbols duplicate', function(){
 	
 	it('Convert Symbol XXII in 22', function(){
 	    Roman.convert('XXII').should.equal(22);
 	});
+    });
 
-    })
+    describe('Symbol different', function(){
+
+	it('Convert Symbol IX in 9', function(){
+	    Roman.convert('IX').should.equal(9);
+	});
+    });
 });
