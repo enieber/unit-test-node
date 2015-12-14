@@ -34,7 +34,8 @@ var should = require('should'),
     describe('Convert thwo symbols duplicate', function(){
 	
 	it('Convert Symbol XXII in 22', function(){
-	    Roman.convert('XXII').shold.equal(22);
+	    Roman.convert('XXII').should.equal(22);
 	});
+
     })
 });

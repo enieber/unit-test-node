@@ -12,7 +12,13 @@
 
     function convert(number){    
 	let chars = number.split("");
-        return  numberRomans[chars]; 	
+	let accummulator = 0;
+
+	for(let i = 0; i < number.length; i++){
+	    accummulator += numberRomans[number.charAt(i)]; 	
+	}
+	return accummulator;
+
     }
       
     exp.convert = convert || {};
