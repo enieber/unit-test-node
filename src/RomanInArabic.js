@@ -23,7 +23,7 @@
 	    if(present < letsRightNumber) multiplay = -1;
 
 
-	    accummulator += numberRomans[number.charAt(i)] * multiplay;
+	    accummulator += present * multiplay;
 
 	    letsRightNumber = present;
 	}
