@@ -11,11 +11,8 @@
     numberRomans['M'] = 1000;
 
     function convert(number){    
-
-	if(typeof(numberRomans[number]) == 'undefined'){
-	   return  numberRomans[number.charAt(1)] *2 ;
-    	}
-	return numberRomans[number];
+	let chars = number.split("");
+        return  numberRomans[chars]; 	
     }
       
     exp.convert = convert || {};

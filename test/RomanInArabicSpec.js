@@ -30,4 +30,11 @@ var should = require('should'),
 	    Roman.convert('XX').should.equal(20);
 	});
     });
+    
+    describe('Convert thwo symbols duplicate', function(){
+	
+	it('Convert Symbol XXII in 22', function(){
+	    Roman.convert('XXII').shold.equal(22);
+	});
+    })
 });
