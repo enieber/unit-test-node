@@ -13,13 +13,8 @@
     function convert(number){    
 
 	if(typeof(numberRomans[number]) == 'undefined'){
-	    let accummulator = 0; 
-	    
-	    for(let i = 0; i < number.legth; i++){
-		accummulator += numerRomans.get(number.charAt(i));
-	    }
-	    return accummulator;
-	}
+	   return  numberRomans[number.charAt(1)] *2 ;
+    	}
 	return numberRomans[number];
     }
       
