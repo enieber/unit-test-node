@@ -4,7 +4,7 @@
   "description": "start tdd with node.js",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "keywords": [
     "tdd",
@@ -17,6 +17,7 @@
     "should": "^8.0.1"
   },
   "dependencies": {
-    "hashmap": "^2.0.4"
+    "hashmap": "^2.0.4",
+    "mocha": "^2.4.5"
   }
 }
