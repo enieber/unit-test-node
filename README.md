@@ -1,21 +1,9 @@
 # Training TDD with Node.js
 
-## Dependenciea
+## Dependencie install
 
-  Node.js
+  ``npm install``
   
-  ``node.js`` and ``npm``
+## Running Tests
   
-  **Mocha**
-  
-  ``npm i mocha -g``
-  
-## Running
-  
-  Install dependencis local
-  
-  ``npm i `` and ``npm i should``
-
-## Testing 
-
-  ``mocha``
+  ``npm run test``
