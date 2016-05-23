@@ -6,4 +6,4 @@
   
 ## Running Tests
   
-  ``npm run test``
+  ``npm test``
